@@ -1,0 +1,48 @@
+.heading {
+  background-color: #2768b7;
+  color: white;
+  border-radius: 1rem;
+}
+.backgroundforfullscreen {
+  background-color: #f07c8c;
+  background-image: url("https://blog.1a23.com/wp-content/uploads/sites/2/2020/02/pattern-29.svg");
+  background-position: center;
+  height: 100%;
+  position: fixed;
+}
+
+.chatlistdisplay {
+  height: 79%;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.greendot {
+  width: 7px;
+  height: 7px;
+  background-color: green;
+  border-radius: 50%;
+}
+.greydot {
+  width: 7px;
+  height: 7px;
+  background-color: rgb(87, 87, 87);
+  border-radius: 50%;
+}
+.selectUserBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+  gap: 3rem;
+  border: 10px solid rgb(12, 126, 255) !important;
+  border-style: none none none solid !important;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+@media screen and (max-width: 600px) {
+  .selectUserBtn {
+    padding: 1rem 1rem;
+  }
+}
